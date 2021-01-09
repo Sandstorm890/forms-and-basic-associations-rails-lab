@@ -1,3 +1,4 @@
 class Note < ActiveRecord::Base
-  # add associations here
+  belongs_to :song
+  # validates :presence, content: true
 end
